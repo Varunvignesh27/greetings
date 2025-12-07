@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1 className="title">Dynamic Greeting App</h1>
+      <h1 className="title">Greeting App</h1>
 
       <input 
         type="text"
