@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import First from "./component/First";
 
 export default function App() {
   const [name, setName] = useState("");
@@ -16,6 +17,7 @@ export default function App() {
 
   return (
     <div className="container">
+      <First/>
       <h1 className="title">Greeting App</h1>
 
       <input 
